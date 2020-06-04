@@ -1,7 +1,7 @@
-import requests
 import json
+
+import requests
 import spacy
-from spacy.lang.en import English
 
 
 class APIWrapper:
@@ -165,16 +165,6 @@ class APIWrapper:
                 pass
         return dup
 
-    def remove_semantic(self, data) -> list:
-        """
-        Two events can be said same if
-            - They occur on the same day and
-            - Their location remains same
-        :param data:
-        :return:
-        """
-        pass
-
     def sort_data(self, data) -> list:
         """
         Sorting data based on their start Time
@@ -220,6 +210,7 @@ class APIWrapper:
     def task3(self, data):
         nlp = spacy.load("en_core_web_md")
         f = open("semantic_duplicates.txt", "w")
+        track = []
         for i in range(len(data) - 1):
             first_event = nlp(data[i][0])
             temp = []
@@ -229,12 +220,20 @@ class APIWrapper:
                 if rank > 0.95:
                     temp.append(data[j])
             if len(temp) > 0:
-                f.write(", ".join(data[i]))
-                f.write("\n")
-                for event in temp:
-                    f.write(", ".join(event))
+                if data[i] not in track:
+                    track.append(data[i])
+                    f.write(", ".join(data[i]))
                     f.write("\n")
-                f.write("\n")
+                    for event in temp:
+                        if event not in track:
+                            track.append(event)
+                            f.write(", ".join(event))
+                            f.write("\n")
+                        else:
+                            pass
+                    f.write("\n")
+                else:
+                    pass
         f.close()
 
 
@@ -252,7 +251,5 @@ if __name__ == "__main__":
     # Delete duplicates
     for i in range(len(task2)):
         task1.remove(task2[i])
-
-    print(len(task1))
 
     api.task3(task1)
