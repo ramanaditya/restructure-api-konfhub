@@ -27,3 +27,17 @@ flask run --host=localhost
 
 ## Documentation
 
+### `app.py` File
+This file is used for the flask creating backend services and displaying the events on the HTML page
+
+### `api_wrapper.py` File
+This file contains `APIWrapper` class contains all the different functions used for the backend services and the tasks.
+
+#### Task 1
+To create human readable list of events
+
+#### Task 2
+To bring out the events which are complete duplicates
+
+#### Task 3
+To bring out events semantically similar
