@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
+</head>
+<html>
+    <body>
+
+        <!-- Navbar Start -->
+        <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+            <nav class="uk-navbar-container" style="color: black">
+                <div class="uk-container uk-container-expand">
+                    <div uk-navbar>
+
+                        <ul class="uk-navbar-nav" style="color: black">
+                            <li class="uk-active" style="color: black"><a href="#" style="color: black">Events</a></li>
+                            <li><a href="#" style="color: black">About</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Card Start -->
+        <div class="uk-child-width-1-4@m" uk-grid >
+            {% for event in context.events %}
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        {% if event.entryType == "Free" %}
+                        <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">{{ event.entryType }}</button>
+                        {% else %}
+                        <button class="uk-button uk-button-danger uk-width-1-1 uk-margin-small-bottom">{{ event.entryType }}</button>
+                        {% endif %}
+                    </div>
+                    <br>
+                    <div class="uk-card-body"  style="margin-top: -3em;">
+                        <p style="display: inline">{% set keyword = event.keywordSupport.split(',') %}
+                            {% for label in keyword %}
+                                <span class="uk-label" style="background-color: #30799B">{{ label }}</span>
+                            {% endfor %}
+                        </p><hr>
+                        <h3 class="uk-card-title" style="margin-top: -0.5em;"><b>{{ event.confName }}</b></h3>
+                        <div>
+                            <p>From: {{ event.confStartDate}}</p>
+                            <p style="margin-top: -1em;">To: {{ event.confEndDate}}</p>
+                        </div>
+
+
+                        <h4 style="margin-top: -0.5em;">Venue</h4>
+                        {% if event.venue == "Online" %}
+                        <p>ONLINE</p>
+                        {% else %}
+                        <p style="margin-top: -0.5em;">{{ event.venue }}</p>
+                        <p style="margin-top: -1em;">{{ event.city}}, {{ event.state }}, {{ event.country }}</p>
+                        {% endif %}
+
+                        <div class="uk-card-footer">
+                            <a href="{{ event.confUrl }}"><button class="uk-button uk-button-secondary uk-width-1-1">Read More</button></a>
+                            <div class="contact" style="position: absolute;bottom:1em;right:1em;display: inline" >
+                            {% if event.emailId %}
+                            <a href="{{ event.emailId }}"><span uk-icon="mail"></span></a>
+                            {% endif %}
+                            {% if event.twitter_handle %}
+                            <a href="https://twitter.com/{{ event.twitter_handle }}"><span uk-icon="twitter"></span></a>
+                            {% endif %}
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <!-- Card End -->
+
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
+    </body>
+</html>
