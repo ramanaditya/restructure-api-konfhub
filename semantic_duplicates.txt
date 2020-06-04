@@ -1,0 +1,94 @@
+AWS Community Day, January 31st, 2020, Stockholm, Stockholm, Swedan, Free, https://awscommunitynordics.org/communityday/
+AWS Community Day, April 29th, 2020, Ahmedabad, Gujarat, India, Paid, https://awsahmedabad.community/
+ChiBrrCon 2020, February 4th, 2020, Chicago, Illinois, USA, Free, https://www.papercall.io/chibrrcon2020
+PyCascades 2020, February 9th, 2020, Portland, Oregon, USA, Free, https://www.papercall.io/pycascades-2020
+BSidesSF 2020, February 24th, 2020, San Francisco, California, USA, Free, https://www.papercall.io/bsidessf-2020
+PyTennessee 2020, March 8th, 2020, Nashville, Tennessee, USA, Free, https://www.papercall.io/pytn-2020
+Connectaha 2020, March 27th, 2020, Omaha, Nebraska, USA, Free, https://www.papercall.io/connectaha-2020
+DEVOPS 2020, April 23rd, 2020, Helsinki, Helsinki, Finland, Paid, https://devops2020.com/
+ChefConf 2020, June 4th, 2020, Seattle, WA, USA, Paid, https://chefconf.io/
+Byteconf GraphQL 2020, February 1st, 2020, , , , Paid, https://www.bytesized.xyz/graphql-2020
+SuperBot 2020, March 31st, 2020, San Francisco, California, USA, Paid, https://www.dashbot.io/superbot/sb2020/register
+DSConf 2020, February 1st, 2020, Pune, Maharashtra, India, Paid, https://dsconf.in/
+Doppa 2020, June 27th, 2020, Bangalore, Karnataka, India, Paid, https://doppa2020.devopsppalliance.org/
+JuliaCon 2020, July 31st, 2020, Lisbon, , Portugal, Paid, https://juliacon.org/2020/
+DATACLOUD INDIA 2020, February 6th, 2020, Mumbai, Maharashtra, India, Free, https://www.datacloudindia.com/
+PGConf India 2020, February 28th, 2020, Bangalore, Karnataka, India, Paid, https://pgconf.in/conferences/pgconfin2020
+PyCascades 2020, February 9th, 2020, Portland, Oregon, USA, Free, https://www.papercall.io/pycascades-2020
+BSidesSF 2020, February 24th, 2020, San Francisco, California, USA, Free, https://www.papercall.io/bsidessf-2020
+PyTennessee 2020, March 8th, 2020, Nashville, Tennessee, USA, Free, https://www.papercall.io/pytn-2020
+Connectaha 2020, March 27th, 2020, Omaha, Nebraska, USA, Free, https://www.papercall.io/connectaha-2020
+DEVOPS 2020, April 23rd, 2020, Helsinki, Helsinki, Finland, Paid, https://devops2020.com/
+ChefConf 2020, June 4th, 2020, Seattle, WA, USA, Paid, https://chefconf.io/
+Byteconf GraphQL 2020, February 1st, 2020, , , , Paid, https://www.bytesized.xyz/graphql-2020
+SuperBot 2020, March 31st, 2020, San Francisco, California, USA, Paid, https://www.dashbot.io/superbot/sb2020/register
+DSConf 2020, February 1st, 2020, Pune, Maharashtra, India, Paid, https://dsconf.in/
+Doppa 2020, June 27th, 2020, Bangalore, Karnataka, India, Paid, https://doppa2020.devopsppalliance.org/
+JuliaCon 2020, July 31st, 2020, Lisbon, , Portugal, Paid, https://juliacon.org/2020/
+BSidesSF 2020, February 24th, 2020, San Francisco, California, USA, Free, https://www.papercall.io/bsidessf-2020
+PyTennessee 2020, March 8th, 2020, Nashville, Tennessee, USA, Free, https://www.papercall.io/pytn-2020
+Connectaha 2020, March 27th, 2020, Omaha, Nebraska, USA, Free, https://www.papercall.io/connectaha-2020
+DEVOPS 2020, April 23rd, 2020, Helsinki, Helsinki, Finland, Paid, https://devops2020.com/
+ChefConf 2020, June 4th, 2020, Seattle, WA, USA, Paid, https://chefconf.io/
+Byteconf GraphQL 2020, February 1st, 2020, , , , Paid, https://www.bytesized.xyz/graphql-2020
+SuperBot 2020, March 31st, 2020, San Francisco, California, USA, Paid, https://www.dashbot.io/superbot/sb2020/register
+DSConf 2020, February 1st, 2020, Pune, Maharashtra, India, Paid, https://dsconf.in/
+Doppa 2020, June 27th, 2020, Bangalore, Karnataka, India, Paid, https://doppa2020.devopsppalliance.org/
+JuliaCon 2020, July 31st, 2020, Lisbon, , Portugal, Paid, https://juliacon.org/2020/
+PyTennessee 2020, March 8th, 2020, Nashville, Tennessee, USA, Free, https://www.papercall.io/pytn-2020
+Connectaha 2020, March 27th, 2020, Omaha, Nebraska, USA, Free, https://www.papercall.io/connectaha-2020
+DEVOPS 2020, April 23rd, 2020, Helsinki, Helsinki, Finland, Paid, https://devops2020.com/
+ChefConf 2020, June 4th, 2020, Seattle, WA, USA, Paid, https://chefconf.io/
+Byteconf GraphQL 2020, February 1st, 2020, , , , Paid, https://www.bytesized.xyz/graphql-2020
+SuperBot 2020, March 31st, 2020, San Francisco, California, USA, Paid, https://www.dashbot.io/superbot/sb2020/register
+DSConf 2020, February 1st, 2020, Pune, Maharashtra, India, Paid, https://dsconf.in/
+Doppa 2020, June 27th, 2020, Bangalore, Karnataka, India, Paid, https://doppa2020.devopsppalliance.org/
+JuliaCon 2020, July 31st, 2020, Lisbon, , Portugal, Paid, https://juliacon.org/2020/
+Connectaha 2020, March 27th, 2020, Omaha, Nebraska, USA, Free, https://www.papercall.io/connectaha-2020
+DEVOPS 2020, April 23rd, 2020, Helsinki, Helsinki, Finland, Paid, https://devops2020.com/
+ChefConf 2020, June 4th, 2020, Seattle, WA, USA, Paid, https://chefconf.io/
+Byteconf GraphQL 2020, February 1st, 2020, , , , Paid, https://www.bytesized.xyz/graphql-2020
+SuperBot 2020, March 31st, 2020, San Francisco, California, USA, Paid, https://www.dashbot.io/superbot/sb2020/register
+DSConf 2020, February 1st, 2020, Pune, Maharashtra, India, Paid, https://dsconf.in/
+Doppa 2020, June 27th, 2020, Bangalore, Karnataka, India, Paid, https://doppa2020.devopsppalliance.org/
+JuliaCon 2020, July 31st, 2020, Lisbon, , Portugal, Paid, https://juliacon.org/2020/
+Women in Data Science Pune Conference, February 29th, 2020, Pune, Maharashtra, India, Free, https://widspune.com/
+The Global Women in Data Science Hyderabad, February 15th, 2020, Hyderabad, Telangana, India, Paid, http://widshyderabad2019.com/
+MATLAB EXPO 2020 India, April 21st, 2020, Bangalore, Karnataka, India, Free, https://www.matlabexpo.com/in/2020/bangalore/agenda.html
+MATLAB EXPO 2020 India, April 23rd, 2020, Chennai, Tamilnadu, India, Free, https://www.matlabexpo.com/in/2020/chennai/agenda.html
+MATLAB EXPO 2020 India, April 28th, 2020, Pune, Maharashtra, India, Free, https://www.matlabexpo.com/in/2020/pune/agenda.html
+MATLAB EXPO 2020 India, April 23rd, 2020, Chennai, Tamilnadu, India, Free, https://www.matlabexpo.com/in/2020/chennai/agenda.html
+MATLAB EXPO 2020 India, April 28th, 2020, Pune, Maharashtra, India, Free, https://www.matlabexpo.com/in/2020/pune/agenda.html
+Machine Learning Developers, January 23rd, 2020, Bangalore, Karnataka, India, Paid, https://www.mlds.analyticsindiasummit.com/
+Machine Learning Developers, January 31st, 2020, Hyderabad, Telangana, India, Paid, https://www.mlds.analyticsindiasummit.com/
+DevOn Summit, April 2nd, 2020, Utrecht, , netherlands, Paid, https://www.devonsummit.com/
+GraphQL Summit, October 28th, 2020, San Francisco, California, USA, Paid, https://summit.graphql.com/
+DEVOPS 2020, April 23rd, 2020, Helsinki, Helsinki, Finland, Paid, https://devops2020.com/
+ChefConf 2020, June 4th, 2020, Seattle, WA, USA, Paid, https://chefconf.io/
+Byteconf GraphQL 2020, February 1st, 2020, , , , Paid, https://www.bytesized.xyz/graphql-2020
+SuperBot 2020, March 31st, 2020, San Francisco, California, USA, Paid, https://www.dashbot.io/superbot/sb2020/register
+DSConf 2020, February 1st, 2020, Pune, Maharashtra, India, Paid, https://dsconf.in/
+Doppa 2020, June 27th, 2020, Bangalore, Karnataka, India, Paid, https://doppa2020.devopsppalliance.org/
+JuliaCon 2020, July 31st, 2020, Lisbon, , Portugal, Paid, https://juliacon.org/2020/
+ChefConf 2020, June 4th, 2020, Seattle, WA, USA, Paid, https://chefconf.io/
+Byteconf GraphQL 2020, February 1st, 2020, , , , Paid, https://www.bytesized.xyz/graphql-2020
+SuperBot 2020, March 31st, 2020, San Francisco, California, USA, Paid, https://www.dashbot.io/superbot/sb2020/register
+DSConf 2020, February 1st, 2020, Pune, Maharashtra, India, Paid, https://dsconf.in/
+Doppa 2020, June 27th, 2020, Bangalore, Karnataka, India, Paid, https://doppa2020.devopsppalliance.org/
+JuliaCon 2020, July 31st, 2020, Lisbon, , Portugal, Paid, https://juliacon.org/2020/
+DevOps Enterprise Summit, June 25th, 2020, London, , UK, Paid, https://events.itrevolution.com/eur
+DevOps Enterprise Summit, June 25th, 2020, London, , UK, Paid, https://events.itrevolution.com/
+Byteconf GraphQL 2020, February 1st, 2020, , , , Paid, https://www.bytesized.xyz/graphql-2020
+SuperBot 2020, March 31st, 2020, San Francisco, California, USA, Paid, https://www.dashbot.io/superbot/sb2020/register
+DSConf 2020, February 1st, 2020, Pune, Maharashtra, India, Paid, https://dsconf.in/
+Doppa 2020, June 27th, 2020, Bangalore, Karnataka, India, Paid, https://doppa2020.devopsppalliance.org/
+JuliaCon 2020, July 31st, 2020, Lisbon, , Portugal, Paid, https://juliacon.org/2020/
+SuperBot 2020, March 31st, 2020, San Francisco, California, USA, Paid, https://www.dashbot.io/superbot/sb2020/register
+DSConf 2020, February 1st, 2020, Pune, Maharashtra, India, Paid, https://dsconf.in/
+Doppa 2020, June 27th, 2020, Bangalore, Karnataka, India, Paid, https://doppa2020.devopsppalliance.org/
+JuliaCon 2020, July 31st, 2020, Lisbon, , Portugal, Paid, https://juliacon.org/2020/
+DSConf 2020, February 1st, 2020, Pune, Maharashtra, India, Paid, https://dsconf.in/
+Doppa 2020, June 27th, 2020, Bangalore, Karnataka, India, Paid, https://doppa2020.devopsppalliance.org/
+JuliaCon 2020, July 31st, 2020, Lisbon, , Portugal, Paid, https://juliacon.org/2020/
+Doppa 2020, June 27th, 2020, Bangalore, Karnataka, India, Paid, https://doppa2020.devopsppalliance.org/
+JuliaCon 2020, July 31st, 2020, Lisbon, , Portugal, Paid, https://juliacon.org/2020/

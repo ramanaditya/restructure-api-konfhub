@@ -1,5 +1,7 @@
 import requests
 import json
+import spacy
+from spacy.lang.en import English
 
 
 class APIWrapper:
@@ -18,7 +20,6 @@ class APIWrapper:
 
             # Loading as JSON
             api = json.loads(text)
-            print(len(api["free"]), len(api["paid"]))
             return api
         else:
             return {}
@@ -26,11 +27,11 @@ class APIWrapper:
     def date_suffix(self, date) -> str:
         """Adding suffix to the date"""
         formatted_date = str(date)
-        if date % 10 == 1:
+        if date == 1 or date == 21 or date == 31:
             formatted_date += "st"
-        elif date % 10 == 2:
+        elif date == 2 or date == 22:
             formatted_date += "nd"
-        elif date % 10 == 3:
+        elif date == 3 or date == 23:
             formatted_date += "rd"
         else:
             formatted_date += "th"
@@ -155,7 +156,16 @@ class APIWrapper:
         removed_dup = {frozenset(event.items()): event for event in data}.values()
         return removed_dup
 
-    def removed_semantic(self, data) -> list:
+    def identify_duplicates(self, data) -> list:
+        dup = []
+        for i in range(len(data) - 1):
+            if data[i] in data[i + 1 :]:
+                dup.append(data[i])
+            else:
+                pass
+        return dup
+
+    def remove_semantic(self, data) -> list:
         """
         Two events can be said same if
             - They occur on the same day and
@@ -174,8 +184,58 @@ class APIWrapper:
         events = sorted(data, key=lambda i: i["sortDateValue"], reverse=True)
         return events
 
-    def print_data(self, data):
-        pass
+    def task1(self, data):
+        f = open("human_readable.txt", "w")
+        human_readable = []
+        for event in data:
+            temp = []
+            temp.append(event["confName"].strip())
+            temp.append(event["confStartDate"].strip())
+            temp.append(event["city"].strip())
+            temp.append(event["state"].strip())
+            temp.append(event["country"].strip())
+            temp.append(event["entryType"].strip())
+            temp.append(event["confUrl"].strip())
+            f.write(", ".join(temp))
+            f.write("\n")
+            human_readable.append(temp)
+        f.close()
+        return human_readable
+
+    def task2(self, data):
+        f = open("exact_duplicates.txt", "w")
+        removed_dup = []
+        dup = []
+        for i in range(len(data) - 1):
+            if data[i] in data[i + 1 :]:
+                f.write(", ".join(data[i]))
+                f.write("\n")
+                removed_dup.append(data[i])
+            else:
+                pass
+        f.close()
+
+        return removed_dup
+
+    def task3(self, data):
+        nlp = spacy.load("en_core_web_md")
+        f = open("semantic_duplicates.txt", "w")
+        for i in range(len(data) - 1):
+            first_event = nlp(data[i][0])
+            temp = []
+            for j in range(i + 1, len(data)):
+                second_event = nlp(data[j][0])
+                rank = first_event.similarity(second_event)
+                if rank > 0.95:
+                    temp.append(data[j])
+            if len(temp) > 0:
+                f.write(", ".join(data[i]))
+                f.write("\n")
+                for event in temp:
+                    f.write(", ".join(event))
+                    f.write("\n")
+                f.write("\n")
+        f.close()
 
 
 if __name__ == "__main__":
@@ -185,3 +245,14 @@ if __name__ == "__main__":
     merged_data = api.merge_paid_n_free(formatted_date)
     removed_duplicates = api.remove_duplicates(merged_data)
     sorted_data = api.sort_data(removed_duplicates)
+
+    task1 = api.task1(merged_data)
+    task2 = api.task2(task1)
+
+    # Delete duplicates
+    for i in range(len(task2)):
+        task1.remove(task2[i])
+
+    print(len(task1))
+
+    api.task3(task1)
