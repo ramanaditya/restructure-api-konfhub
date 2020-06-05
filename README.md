@@ -33,7 +33,7 @@ This file is used for the flask creating backend services and displaying the eve
 
 ### `api_wrapper.py` File
 This file contains `APIWrapper` class contains all the different functions used for the backend services and the tasks.
-> This file can be run separately using
+> This file can be run separately by executing
 ```bash
 python api_wrapper.py
 ```
